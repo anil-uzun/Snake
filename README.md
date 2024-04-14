@@ -15,14 +15,14 @@ This type of food is orange colored and when eaten will grow the snake 1 tile an
 Special type of food will spawn everytime a players score hits a multiple of 10, if the players score passes the closest multiple of 10 without hitting it the food will still spawn.
 While these types of food are on the board no additional regular food can spawn. -So the player is forced to eat them-
 - ### Gold Food
-  This type of food when eaten will increase the maximum amount of regular food that can be on the map by 1.
-  Every time a special food spawn event occurs gold food will have some chance of spawning that is inversely proportional to the maximum amount of regular food.
-  Only one can spawn at a time.
-  One blue food will most likely spawn alongside it.
+  This type of food when eaten will increase the maximum amount of regular food that can be on the map by 1.  
+  Every time a special food spawn event occurs gold food will have some chance of spawning that is inversely proportional to the maximum amount of regular food.  
+  Only one can spawn at a time.  
+  One blue food will most likely spawn alongside it.  
   When eaten will add 1 to the players score.
 - ### Blue food
-  This type of food when eaten will increase the players speed by 1 -the default speed is 10-.
-  Unlike the Gold food this type of food will always spawn in pairs of two
+  This type of food when eaten will increase the players speed by 1 -the default speed is 10-.  
+  Unlike the Gold food this type of food will always spawn in pairs of two  
   When eaten will add 1 to the players score.
 ## The Menus
 - By pressing esc the player is able to pause the game and will be greeted with a pause menu. While on this screen the player can press esc again to unpause the game.
