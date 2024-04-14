@@ -10,6 +10,7 @@ clock = pg.time.Clock()
 FPS = 60
 pop = pg.mixer.Sound("pop.mp3")
 explosion = pg.mixer.Sound("explosion.mp3")
+eat = pg.mixer.Sound("eat.mp3")
 font = pg.font.SysFont('arialbold', 30)
 
 
@@ -67,6 +68,7 @@ class Snake():
             self.length += 1
             fn -= 1
             score += 1
+            pg.mixer.Sound.play(eat)
         elif board[self.y][self.x] == "GF":
             board[self.y][self.x] = "H"
             global max_food
@@ -74,12 +76,14 @@ class Snake():
             fn -= 1
             sn -= 1
             score += 1
+            pg.mixer.Sound.play(eat)
         elif board[self.y][self.x] == "BF":
             board[self.y][self.x] = "H"
             self.speed += 1
             fn -= 1
             sn -= 1
             score += 1
+            pg.mixer.Sound.play(eat)
         elif (self.velo_x != 0) | (self.velo_y != 0):
             pg.mixer.Sound.play(explosion)
             pg.time.wait(1000)
