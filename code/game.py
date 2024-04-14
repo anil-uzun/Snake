@@ -8,9 +8,9 @@ transparent = pg.Surface((Display["width"], Display["height"]), pg.SRCALPHA, 32)
 transparent = transparent.convert_alpha()
 clock = pg.time.Clock()
 FPS = 60
-pop = pg.mixer.Sound("pop.mp3")
-explosion = pg.mixer.Sound("explosion.mp3")
-eat = pg.mixer.Sound("eat.mp3")
+pop = pg.mixer.Sound("code/pop.mp3")
+explosion = pg.mixer.Sound("code/explosion.mp3")
+eat = pg.mixer.Sound("code/eat.mp3")
 font = pg.font.SysFont('arialbold', 30)
 
 
