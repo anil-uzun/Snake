@@ -3,9 +3,9 @@ The traditional snake game with a few more extra features.
 The main goal is to eat the food that is scattered around the board using your snake and survive as long as possible to get the highest score.
 # Features
 ## Controlling the snake
-The snake is controlled using the arrow keys and will never stop moving unless the game is paused.
-The snake will have an initial speed of 10 which will increase as you progress.
-By holding down the space bar the snake will start sprinting by moving twice it's current speed.
+The snake is controlled using the arrow keys and will never stop moving unless the game is paused.  
+The snake will have an initial speed of 10 which will increase as you progress.  
+By holding down the space bar the snake will start sprinting by moving twice it's current speed.  
 If multiple inputs are made before the snake is able to complete an action the input will be put on a queue and will be put in action as soon as the current action is completed.
 ## Food
 There are 3 types of food that can spawn that are dependant on the max food count.
